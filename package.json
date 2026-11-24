@@ -1,0 +1,36 @@
+{
+  "name": "arabic-pdf-text-fix",
+  "version": "1.0.0",
+  "description": "Fix Arabic text copied from PDF files: reversed order and broken (presentation-form) letters. إصلاح النص العربي المنسوخ من ملفات PDF.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "node --test index.test.js"
+  },
+  "keywords": [
+    "arabic",
+    "pdf",
+    "rtl",
+    "reversed text",
+    "presentation forms",
+    "ocr",
+    "text extraction",
+    "عربي"
+  ],
+  "homepage": "https://www.mypdfx.com/extract-text",
+  "author": "MyPDFX (https://www.mypdfx.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mypdfx/arabic-pdf-text-fix"
+  }
+}
